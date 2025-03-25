@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    background-image: url(../Image/Back.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+.color-block {
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    padding: 40px 0;
+}
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+.content {
+    display: flex;
+    margin-top: 20px;
+}
+.left, .right {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.left img, .right img {
+    width: 600px;
+    height: auto;
+    margin: 15px 0;
+}
+.car-details {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.detail-block {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.detail label {
+    font-weight: bold;
+}
+.Photo{
+    text-align: center;
+    margin: 15px 0;
+}
+html{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
